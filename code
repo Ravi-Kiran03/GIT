@@ -7,6 +7,7 @@ public class Test {
         
         // Variables
         int firstNumber = 5;
+		//this is a modified line 2
         int secondNumber = 10;
         int result = multiply(firstNumber, secondNumber);
         

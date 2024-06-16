@@ -1,0 +1,35 @@
+public class Test {
+
+    // Main method
+    public static void main(String[] args) {
+        System.out.println("Welcome to Java programming!");
+	//This is new modified line
+        
+        // Variables
+        int firstNumber = 5;
+        int secondNumber = 10;
+        int result = multiply(firstNumber, secondNumber);
+        
+        // Output result
+        System.out.println("Result of multiplication: " + result);
+        
+        // Conditional statement
+        if (result > 10) {
+            System.out.println("Result is greater than 10");
+        } else if (result == 10) {
+            System.out.println("Result is exactly 10");
+        } else {
+            System.out.println("Result is less than 10");
+        }
+    }
+    
+    // Method to perform multiplication
+    public static int multiply(int a, int b) {
+        if (b == 0) {
+            throw new IllegalArgumentException("Second number cannot be zero.");
+        }
+        return a * b;
+    }
+    
+}
+
